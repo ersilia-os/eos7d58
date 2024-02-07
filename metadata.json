@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos7d58",
+    "Slug": "admet-ai-prediction",
+    "Status": "In progress",
+    "Title": "ADMET properties prediction",
+    "Description": "Fast batch prediction of ADMET properties for small molecules",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "ADME",
+        "Toxicity"
+    ],
+    "Publication": "https://www.biorxiv.org/content/10.1101/2023.12.28.573531v1",
+    "Source Code": "https://github.com/swansonk14/admet_ai",
+    "License": "MIT"
 }
