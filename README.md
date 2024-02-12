@@ -26,6 +26,7 @@ A framework based on ensemble of five Chemprop-RDKit models, for fast batch pred
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos7d58)
 * [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7d58.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos7d58) (AMD64, ARM64)
 
 ## Citation
 
