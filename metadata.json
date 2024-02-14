@@ -1,7 +1,7 @@
 {
     "Identifier": "eos7d58",
     "Slug": "admet-ai-prediction",
-    "Status": "In progress",
+    "Status": "Ready",
     "Title": "ADMET properties prediction",
     "Description": "A framework based on ensemble of five Chemprop-RDKit models, for fast batch prediction of ADMET properties of small molecules. The framework exists as a CLI tool, a Python API, and a web server. We incorporate it using the API.",
     "Mode": "Pretrained",
