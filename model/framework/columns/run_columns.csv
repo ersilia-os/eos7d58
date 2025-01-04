@@ -1,0 +1,99 @@
+name,type,direction,description
+molecular_weight,float,intermediate,Physicochemical property for molecular weight
+logp,float,intermediate,Physicochemical property for logarithm of partition coefficient (logP)
+hydrogen_bond_acceptors,integer,intermediate,Physicochemical property for the number of hydrogen bond acceptors
+hydrogen_bond_donors,integer,intermediate,Physicochemical property for the number of hydrogen bond donors
+lipinski,integer,high,Compliance with Lipinski's rule of five (out of 4)
+qed,float,high,Quantitative estimate of drug-likeness (0-1)
+stereo_centers,integer,intermediate,Physicochemical property for the number of stereocenters
+tpsa,float,intermediate,Physicochemical property for topological polar surface area (TPSA) in squared Angstroms
+ames,float,low,Predicted probability of Ames mutagenicity
+bbb_martins,float,high,Predicted probability of blood-brain barrier penetration
+bioavailability_ma,float,high,Predicted probability of bioavailability
+cyp1a2_veith,float,low,Predicted probability of CYP1A2 inhibition
+cyp2c19_veith,float,low,Predicted probability of CYP2C19 inhibition
+cyp2c9_substrate_carbonmangels,float,low,Predicted probability of CYP2C9 substrate activity
+cyp2c9_veith,float,low,Predicted probability of CYP2C9 inhibition
+cyp2d6_substrate_carbonmangels,float,low,Predicted probability of CYP2D6 substrate activity
+cyp2d6_veith,float,low,Predicted probability of CYP2D6 inhibition
+cyp3a4_substrate_carbonmangels,float,low,Predicted probability of CYP3A4 substrate activity
+cyp3a4_veith,float,low,Predicted probability of CYP3A4 inhibition
+carcinogens_lagunin,float,low,Predicted probability of carcinogenicity
+clintox,float,low,Predicted probability of clinical toxicity
+dili,float,low,Predicted probability of drug-induced liver injury
+hia_hou,float,high,Predicted probability of human intestinal absorption
+nr_ar_lbd,float,low,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor ligand-binding domain
+nr_ar,float,low,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor
+nr_ahr,float,low,Predicted probability of toxicity-related interaction with nuclear receptor aryl hydrocarbon receptor
+nr_aromatase,float,low,Predicted probability of toxicity-related interaction with nuclear receptor aromatase
+nr_er_lbd,float,low,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor ligand-binding domain
+nr_er,float,low,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor
+nr_ppar_gamma,float,low,Predicted probability of toxicity-related interaction with nuclear receptor peroxisome proliferator-activated receptor gamma
+pampa_ncats,float,high,Predicted probability of PAMPA permeability
+pgp_broccatelli,float,low,Predicted probability of P-glycoprotein inhibition
+sr_are,float,low,Predicted probability of toxicity-related interaction with stress response antioxidant response element
+sr_atad5,float,low,Predicted probability of toxicity-related interaction with stress response ATAD5
+sr_hse,float,low,Predicted probability of toxicity-related interaction with stress response heat shock element
+sr_mmp,float,low,Predicted probability of toxicity-related interaction with stress response metalloproteinases
+sr_p53,float,low,Predicted probability of toxicity-related interaction with stress response p53
+skin_reaction,float,low,Predicted probability of skin reaction
+herg,float,low,Predicted probability of hERG blocking (cardiotoxicity)
+caco2_wang,float,high,Predicted Caco-2 cell effective permeability in log10-6 cm/s
+clearance_hepatocyte_az,float,intermediate,Predicted clearance in hepatocytes in uL/min/106 cells
+clearance_microsome_az,float,intermediate,Predicted clearance in microsomes in uL/min/mg
+half_life_obach,float,intermediate,Predicted half-life in hours
+hydration_free_energy_freesolv,float,lower,Predicted hydration free energy in kcal/mol
+ld50_zhu,float,high,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
+lipophilicity_astrazeneca,float,intermediate,Physicochemical property for lipophilicity in log-ratio
+ppbr_az,float,intermediate,Predicted plasma protein binding rate
+solubility_aqsoldb,float,intermediate,Predicted solubility in log(mol/L)
+vdss_lombardo,float,intermediate,Predicted volume of distribution at steady state (VDss) in L/kg
+molecular_weight_drugbank_approved_percentile,float,intermediate,Physicochemical property for molecular weight. The value corresponds to the percentile with respect to the DrugBank approved drugs
+logp_drugbank_approved_percentile,float,intermediate,Physicochemical property for logarithm of partition coefficient (logP). The value corresponds to the percentile with respect to the DrugBank approved drugs
+hydrogen_bond_acceptors_drugbank_approved_percentile,float,intermediate,Physicochemical property for the number of hydrogen bond acceptors. The value corresponds to the percentile with respect to the DrugBank approved drugs
+hydrogen_bond_donors_drugbank_approved_percentile,float,intermediate,Physicochemical property for the number of hydrogen bond donors. The value corresponds to the percentile with respect to the DrugBank approved drugs
+lipinski_drugbank_approved_percentile,float,high,Compliance with Lipinski's rule of five (out of 4). The value corresponds to the percentile with respect to the DrugBank approved drugs
+qed_drugbank_approved_percentile,float,high,Quantitative estimate of drug-likeness (0-1). The value corresponds to the percentile with respect to the DrugBank approved drugs
+stereo_centers_drugbank_approved_percentile,float,intermediate,Physicochemical property for the number of stereocenters. The value corresponds to the percentile with respect to the DrugBank approved drugs
+tpsa_drugbank_approved_percentile,float,intermediate,Physicochemical property for topological polar surface area (TPSA) in squared Angstroms. The value corresponds to the percentile with respect to the DrugBank approved drugs
+ames_drugbank_approved_percentile,float,low,Predicted probability of Ames mutagenicity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+bbb_martins_drugbank_approved_percentile,float,high,Predicted probability of blood-brain barrier penetration. The value corresponds to the percentile with respect to the DrugBank approved drugs
+bioavailability_ma_drugbank_approved_percentile,float,high,Predicted probability of bioavailability. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp1a2_veith_drugbank_approved_percentile,float,low,Predicted probability of CYP1A2 inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp2c19_veith_drugbank_approved_percentile,float,low,Predicted probability of CYP2C19 inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp2c9_substrate_carbonmangels_drugbank_approved_percentile,float,low,Predicted probability of CYP2C9 substrate activity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp2c9_veith_drugbank_approved_percentile,float,low,Predicted probability of CYP2C9 inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp2d6_substrate_carbonmangels_drugbank_approved_percentile,float,low,Predicted probability of CYP2D6 substrate activity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp2d6_veith_drugbank_approved_percentile,float,low,Predicted probability of CYP2D6 inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp3a4_substrate_carbonmangels_drugbank_approved_percentile,float,low,Predicted probability of CYP3A4 substrate activity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+cyp3a4_veith_drugbank_approved_percentile,float,low,Predicted probability of CYP3A4 inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+carcinogens_lagunin_drugbank_approved_percentile,float,low,Predicted probability of carcinogenicity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+clintox_drugbank_approved_percentile,float,low,Predicted probability of clinical toxicity. The value corresponds to the percentile with respect to the DrugBank approved drugs
+dili_drugbank_approved_percentile,float,low,Predicted probability of drug-induced liver injury. The value corresponds to the percentile with respect to the DrugBank approved drugs
+hia_hou_drugbank_approved_percentile,float,high,Predicted probability of human intestinal absorption. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_ar_lbd_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor ligand-binding domain. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_ar_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_ahr_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor aryl hydrocarbon receptor. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_aromatase_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor aromatase. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_er_lbd_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor ligand-binding domain. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_er_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor. The value corresponds to the percentile with respect to the DrugBank approved drugs
+nr_ppar_gamma_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with nuclear receptor peroxisome proliferator-activated receptor gamma. The value corresponds to the percentile with respect to the DrugBank approved drugs
+pampa_ncats_drugbank_approved_percentile,float,high,Predicted probability of PAMPA permeability. The value corresponds to the percentile with respect to the DrugBank approved drugs
+pgp_broccatelli_drugbank_approved_percentile,float,low,Predicted probability of P-glycoprotein inhibition. The value corresponds to the percentile with respect to the DrugBank approved drugs
+sr_are_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with stress response antioxidant response element. The value corresponds to the percentile with respect to the DrugBank approved drugs
+sr_atad5_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with stress response ATAD5. The value corresponds to the percentile with respect to the DrugBank approved drugs
+sr_hse_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with stress response heat shock element. The value corresponds to the percentile with respect to the DrugBank approved drugs
+sr_mmp_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with stress response metalloproteinases. The value corresponds to the percentile with respect to the DrugBank approved drugs
+sr_p53_drugbank_approved_percentile,float,low,Predicted probability of toxicity-related interaction with stress response p53. The value corresponds to the percentile with respect to the DrugBank approved drugs
+skin_reaction_drugbank_approved_percentile,float,low,Predicted probability of skin reaction. The value corresponds to the percentile with respect to the DrugBank approved drugs
+herg_drugbank_approved_percentile,float,low,Predicted probability of hERG blocking (cardiotoxicity). The value corresponds to the percentile with respect to the DrugBank approved drugs
+caco2_wang_drugbank_approved_percentile,float,high,Predicted Caco-2 cell effective permeability in log10-6 cm/s. The value corresponds to the percentile with respect to the DrugBank approved drugs
+clearance_hepatocyte_az_drugbank_approved_percentile,float,intermediate,Predicted clearance in hepatocytes in uL/min/106 cells. The value corresponds to the percentile with respect to the DrugBank approved drugs
+clearance_microsome_az_drugbank_approved_percentile,float,intermediate,Predicted clearance in microsomes in uL/min/mg. The value corresponds to the percentile with respect to the DrugBank approved drugs
+half_life_obach_drugbank_approved_percentile,float,intermediate,Predicted half-life in hours. The value corresponds to the percentile with respect to the DrugBank approved drugs
+hydration_free_energy_freesolv_drugbank_approved_percentile,float,lower,Predicted hydration free energy in kcal/mol. The value corresponds to the percentile with respect to the DrugBank approved drugs
+ld50_zhu_drugbank_approved_percentile,float,high,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg)). The value corresponds to the percentile with respect to the DrugBank approved drugs
+lipophilicity_astrazeneca_drugbank_approved_percentile,float,intermediate,Physicochemical property for lipophilicity in log-ratio. The value corresponds to the percentile with respect to the DrugBank approved drugs
+ppbr_az_drugbank_approved_percentile,float,intermediate,Predicted plasma protein binding rate. The value corresponds to the percentile with respect to the DrugBank approved drugs
+solubility_aqsoldb_drugbank_approved_percentile,float,intermediate,Predicted solubility in log(mol/L). The value corresponds to the percentile with respect to the DrugBank approved drugs
+vdss_lombardo_drugbank_approved_percentile,float,intermediate,Predicted volume of distribution at steady state (VDss) in L/kg. The value corresponds to the percentile with respect to the DrugBank approved drugs
