@@ -15,6 +15,7 @@ root = os.path.dirname(os.path.abspath(__file__))
 # my model
 def my_model(smiles_list):
     model = ADMETModel()
+    print(model)
     preds = model.predict(smiles=smiles_list)
     return preds
 
