@@ -3,36 +3,46 @@
     "Slug": "admet-ai-prediction",
     "Status": "Ready",
     "Title": "ADMET properties prediction",
-    "Description": "A framework based on ensemble of five Chemprop-RDKit models, for fast batch prediction of ADMET properties of small molecules. The framework exists as a CLI tool, a Python API, and a web server. We incorporate it using the API.",
-    "Mode": "Pretrained",
-    "Task": [
-        "Classification",
-        "Regression"
-    ],
+    "Description": "ADMET AI is a framework for carrying out fast batch predictions for ADMET properties. It is based on ensemble of five Chemprop-RDKit models and has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 regression tasks. In addition to that output also contains 8 physicochemical properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen bond doners, Lipinski's Rule of 5, QED, stereo centers, and topological polar surface area. Furthermore, each of these outcomes is contextualized through a computation of its percentile in reference to DrugBank approved drugs.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Output": [
-        "Probability",
-        "Score"
+        "Score",
+        "Value"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
-    "Interpretation": "ADMET AI is a framework for carrying out fast batch predictions for ADMET properties. It is based on ensemble of five Chemprop-RDKit models and has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 regression tasks. In addition to that output also contains 8 physicochemical properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen bond doners, Lipinski's Rule of 5, QED, stereo centers, and topological polar surface area. Furthermore, each of these outcomes is contextualized through a computation of its percentile in reference to DrugBank approved drugs. According to the authors, the framework can generate predicitons for a million compounds in approximately 3 hours on a single GPU or 32 CPU machine.",
+    "Output Dimension": 98,
+    "Output Consistency": "Fixed",
+    "Interpretation": "ADMET outcomes, including physicochemical properties and classification tasks, as well as percentile normalizations based on the DrugBank chemical space.",
     "Tag": [
         "ADME",
         "Toxicity"
     ],
-    "Publication": "https://www.biorxiv.org/content/10.1101/2023.12.28.573531v1",
+    "Publication": "https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2024,
     "Source Code": "https://github.com/swansonk14/admet_ai",
     "License": "MIT",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7d58.zip",
+    "Contributor": "DhanshreeA",
+    "Incorporation Date": "2024-02-07",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7d58",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7d58.zip",
+    "Deployment": [
+        "Local"
     ]
 }
