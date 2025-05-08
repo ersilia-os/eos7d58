@@ -52,10 +52,6 @@ _10 of 98 columns are shown_
 - **Environment Size (Mb):** `6059`
 - **Image Size (Mb):** `5926.04`
 
-**Computational Performance (seconds):**
-- 4 inputs: `42.43`
-- 20 inputs: `34.28`
-- 100 inputs: `43.05`
 
 ### References
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
