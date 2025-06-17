@@ -50,12 +50,12 @@ _10 of 98 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6064`
-- **Image Size (Mb):** `5940.22`
+- **Image Size (Mb):** `5919.47`
 
 **Computational Performance (seconds):**
-- 10 inputs: `41.01`
-- 100 inputs: `40.51`
-- 10000 inputs: `1268.82`
+- 10 inputs: `40.94`
+- 100 inputs: `40.38`
+- 10000 inputs: `1290.89`
 
 ### References
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
