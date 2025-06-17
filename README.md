@@ -7,7 +7,7 @@ This model was incorporated on 2024-02-07.
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos7d58`
-- **Slug:** `admet-ai-prediction`
+- **Slug:** `admet-ai-percentile`
 
 ### Domain
 - **Task:** `Annotation`
