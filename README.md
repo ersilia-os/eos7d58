@@ -49,7 +49,7 @@ _10 of 98 columns are shown_
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
-- **Environment Size (Mb):** `6062`
+- **Environment Size (Mb):** `6064`
 - **Image Size (Mb):** `5940.22`
 
 **Computational Performance (seconds):**
@@ -62,7 +62,7 @@ _10 of 98 columns are shown_
 - **Publication**: [https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030](https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2024`
-- **Ersilia Contributor:** [DhanshreeA](https://github.com/DhanshreeA)
+- **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
 
 ### License
 This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [MIT](LICENSE) license.
