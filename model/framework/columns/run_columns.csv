@@ -42,7 +42,7 @@ caco2_wang,float,high,Predicted Caco-2 cell effective permeability in log10-6 cm
 clearance_hepatocyte_az,float,high,Predicted clearance in hepatocytes in uL/min/106 cells
 clearance_microsome_az,float,high,Predicted clearance in microsomes in uL/min/mg
 half_life_obach,float,high,Predicted half-life in hours
-hydration_free_energy_freesolv,float,low,Predicted hydration free energy in kcal/mol
+hydrationfreeenergy_freesolv,float,low,Predicted hydration free energy in kcal/mol
 ld50_zhu,float,low,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
 lipophilicity_astrazeneca,float,high,Physicochemical property for lipophilicity in log-ratio
 ppbr_az,float,high,Predicted plasma protein binding rate
@@ -91,7 +91,7 @@ caco2_wang_drugbank_approved_percentile,float,high,Predicted Caco-2 cell effecti
 clearance_hepatocyte_az_drugbank_approved_percentile,float,high,Predicted clearance in hepatocytes in uL/min/106 cells. The value corresponds to the percentile with respect to the DrugBank approved drugs
 clearance_microsome_az_drugbank_approved_percentile,float,high,Predicted clearance in microsomes in uL/min/mg. The value corresponds to the percentile with respect to the DrugBank approved drugs
 half_life_obach_drugbank_approved_percentile,float,high,Predicted half-life in hours. The value corresponds to the percentile with respect to the DrugBank approved drugs
-hydration_free_energy_freesolv_drugbank_approved_percentile,float,low,Predicted hydration free energy in kcal/mol. The value corresponds to the percentile with respect to the DrugBank approved drugs
+hydrationfreeenergy_freesolv_drugbank_approved_percentile,float,low,Predicted hydration free energy in kcal/mol. The value corresponds to the percentile with respect to the DrugBank approved drugs
 ld50_zhu_drugbank_approved_percentile,float,low,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg)). The value corresponds to the percentile with respect to the DrugBank approved drugs
 lipophilicity_astrazeneca_drugbank_approved_percentile,float,high,Physicochemical property for lipophilicity in log-ratio. The value corresponds to the percentile with respect to the DrugBank approved drugs
 ppbr_az_drugbank_approved_percentile,float,high,Predicted plasma protein binding rate. The value corresponds to the percentile with respect to the DrugBank approved drugs

@@ -34,13 +34,6 @@ input_len = len(smiles_list)
 output_len = len(outputs)
 assert input_len == output_len
 
-# rename columns
-with open(os.path.join(root, "..", "columns", "run_columns.csv"), "r") as f:
-    reader = csv.reader(f)
-    next(reader)
-    columns = []
-    for r in reader:
-        columns += [r[0]]
-rename = dict((c0, c1) for c0, c1 in zip(list(outputs.columns), columns))
-outputs = outputs.rename(columns=rename)
+rename_map = {c: c.lower().replace("-", "_") for c in outputs.columns}
+outputs = outputs.rename(columns=rename_map)
 outputs.to_csv(output_file, index=False)
