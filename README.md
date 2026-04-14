@@ -1,6 +1,6 @@
 # ADMET properties prediction
 
-ADMET AI is a framework for carrying out fast batch predictions for ADMET properties. It is based on ensemble of five Chemprop-RDKit models and has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 regression tasks. In addition to that output also contains 8 physicochemical properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen bond doners, Lipinskis Rule of 5, QED, stereo centers, and topological polar surface area. Furthermore, each of these outcomes is contextualized through a computation of its percentile in reference to DrugBank approved drugs.
+ADMET AI is a framework for fast batch prediction of ADMET properties using an ensemble of five Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from Therapeutics Data Commons (v0.4.1). The output includes 8 physicochemical properties: MW, logP, H-bond acceptors/donors, Lipinski’s Rule of 5, QED, stereocenters, and TPSA. Each result is contextualized by its percentile rank relative to DrugBank approved drugs.
 
 This model was incorporated on 2024-02-07.Last packaged on 2025-09-16.
 
