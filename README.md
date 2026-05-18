@@ -59,7 +59,7 @@ _10 of 98 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
-- **Publication**: [https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030](https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030)
+- **Publication**: [https://doi.org/10.1093/bioinformatics/btae416](https://doi.org/10.1093/bioinformatics/btae416)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2024`
 - **Ersilia Contributor:** [DhanshreeA](https://github.com/DhanshreeA)
