@@ -1,7 +1,7 @@
 {
     "Identifier": "eos7d58",
     "Slug": "admet-ai-percentile",
-    "Status": "Ready",
+    "Status": "Archived",
     "Title": "ADMET properties prediction",
     "Description": "ADMET AI is a framework for fast batch prediction of ADMET properties using an ensemble of five Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from Therapeutics Data Commons (v0.4.1). The output includes 8 physicochemical properties: MW, logP, H-bond acceptors/donors, Lipinski\u2019s Rule of 5, QED, stereocenters, and TPSA. Each result is contextualized by its percentile rank relative to DrugBank approved drugs.",
     "Deployment": [
